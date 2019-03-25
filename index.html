@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Desiquilibrio ácidobase</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="css/bootstrap-4/css/bootstrap.min.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<div>Interpretación de Gases Arteriales</div>
+					<img src="img/acidosisAlcalosis.png" alt="">
+					<div>Transtornos del Equilibrio Acido-Base</div>
+				</section>
+				<section id="framentos1">
+					
+						<p>Primero que hay que tener en cuenta es el valor normal del PH</p>
+
+						<h3 class="fragment fade-up">Acidosis<strong class="letra">  <= 7.35 - 7.45 =></strong>Alcalosis</h3>
+						<p class="fragment fade-up">PaCO<sub>2</sub> = <span class="letra">35 a 45 </span>mmHg</p>
+						<p class="fragment fade-up">HCO<sub>3</sub><sup>-</sup> = <strong class="letra">22 a 26 </strong>mEq/l</p>
+					
+					
+				</section>
+
+				<section>
+					<h3>Desequilibrio Acido Base</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Tipo</td>
+								<th>PH</th>
+								<th>PCO<sub>2</sub>	</th>
+								<th>HCO<sub>3</sub><sup>-</sup></th>
+								<th>Compesación</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="color_rojo">
+								<td >Acidosis Metabólica</td>
+								<td>
+									<a href="#acidosisMetabolica" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaAbajo.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+
+								<td>
+									<a href="#acidosisMetabolica" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaAbajo.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+
+								<td>
+									<a href="#acidosisMetabolica" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaAbajo.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>Hiperventilación</td>
+							</tr>
+
+							<tr class="color_blue">
+								<td >Alcalosis Metabólica</td>
+								<td>
+									<a href="#alcaloisMetabolica" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaArriba.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>
+									<a href="#alcaloisMetabolica" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaArriba.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>
+									<a href="#alcaloisMetabolica" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaArriba.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>Hipoventilación</td>
+							</tr>
+
+							<tr class="color_rojo">
+								<td>Acidosis Respiratoria</td>
+								<td>
+									<a href="#acidosisRespiratoria" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaAbajo.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+
+								<td>
+									<a href="#acidosisRespiratoria" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaArriba.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>
+									<a href="#acidosisRespiratoria" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaArriba.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>Aumenta reabsorción renal</td>
+							</tr>
+
+							<tr class="color_blue">
+								<td >Alcalosis Respiratoria</td>
+								<td>
+									<a href="#alcaloisRespiratoria" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaArriba.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								
+								<td>
+									<a href="#alcaloisRespiratoria" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaAbajo.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+
+								<td>
+									<a href="#alcaloisRespiratoria" class="btn btn-warning" data-toggle = "modal">
+										<img src="img/flechaAbajo.png" class="imgflecha" style="border: none">
+									</a>
+								</td>
+								<td>Disminuye reabsorción renal</td>
+
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+			</div>
+		</div>
+
+	<!-- ventanas emergentes -->
+	
+	<div class="modal fade" id="acidosisMetabolica" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">Diagnóstico de Acidosis Metabólica</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+		<h4>Para establecer las causas se debe medir el <span class="letra">anion gap</span> = Na<sup>+</sup> - (Cl<sup>-</sup> + HCO<sub>3</sub><sup>-</sup>)	:</h4>
+					<h4>Valor normal es de <span class="letra">6 a 12</span></h4>
+					<h4>Causas de Acidosis Metabolica con anion gap elevado son peligrosas como las causadas por:</h4>
+				<h4>
+					<ul type="circle">
+						<li class="letra">Metanol</li>
+						<li class="letra">Etilenglicol</li>
+						<li class="letra">Uremia</li>
+						<li class="letra">Cetoacidosis diabética</li>
+						<li class="letra">Acidosis láctica</li>
+						<li class="letra">Salicilatos</li>
+						<li class="letra">Isoniazida (INH)</li>
+					</ul>
+				</h4>
+				<h4>Las acidosis metabolicas con anion gap normal son: <span class="letra">Enfermedad de Adison</span> , <span class="letra">espironolactona</span>, <span class="letra">hiperalimentación</span> </h4>	
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Acidosis respiratoria -->
+
+
+	<div class="modal fade" id="acidosisRespiratoria" tabindex="-1" role="dialog" aria-labelledby="acidosisRespiratoriaHeader" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="acidosisRespiratoriaHeader">Diagnóstico de Acidosis Respiratoria</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+		<h3>¿Cuales son las causas de una ACIDOSIS RESPIRATORIA?</h3>
+		<H4>Se debe pensar en una <span class="letra">enfermedad pulmonar</span></H4>
+
+				<h4>
+					<ul type="circle">
+						<li>Enfermedad obtructiva cronica EPOC:
+							<ul>
+								<li class="letra">Enfisema</li>
+								<li class="letra">Broquitis crónica</li>
+								<li class="letra">Fibrosis Pulmonar</li>
+							</ul>
+						</li>
+						<li class="letra">Enfermedad pulmonar aguda</li>
+						<li class="letra">Los sedantes</li>
+						<li class="letra">Los narcóticos</li>
+						
+					</ul>
+				</h4>	
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Alcalosis metabolica -->
+
+
+	<div class="modal fade" id="alcaloisMetabolica" tabindex="-1" role="dialog" aria-labelledby="acidosisRespiratoriaHeader" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="acidosisRespiratoriaHeader">Diagnóstico de Alcalosis Metabolica</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+		<h3>¿Cuales son las causas de una ALCALOSIS METABÓLICA?</h3>
+		<H4>Se debe pensar en <span class="letra">VÓMITO</span>, porque se pierde ácido clorhídrico y Cl<sup>-</H4>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Alcalosis respiratoria -->
+
+
+	<div class="modal fade" id="alcaloisRespiratoria" tabindex="-1" role="dialog" aria-labelledby="acidosisRespiratoriaHeader" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="acidosisRespiratoriaHeader">Diagnóstico de Alcalosis Respiratoria</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+		<h3>¿Cuales son las causas de una ALCALOSIS RESPIRATORIA?</h3>
+		<h4>La causa frecuente es la <span class="letra">ALTURA</span>: En la altura disminuye la presión parcial de oxígeno, esto aumenta la
+			frecuencia respiratoria, hiperventila para captar más oxígeno, pero también elimina CO<sub>2</sub> y eso lleva a la alcalosis respiratoria.</h4>
+		<h4> También se debe pensar en los <span class="letra">salicilatos</span> como la aspirina, claro que después se convierte en una acidos metabólica</h4>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-4/js/bootstrap.min.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				controls: true,
+				progress: true,
+				center: false,
+				transition: 'zoom',
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

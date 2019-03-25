@@ -1,0 +1,53 @@
+.letra1{
+	font-size: 0.7em !important; 
+}
+
+.letra{
+	color: red !important;
+	
+	transition: 1s;
+}
+
+.letra:hover{
+
+	font-size: 2em !important;
+
+}
+
+.color_rojo{
+	color: red !important;
+	background: #ccc;
+	font-size: 0.7em !important; 
+}
+
+.color_blue{
+	color: blue !important;
+	font-size: 0.7em !important;
+}
+
+td{
+	vertical-align: middle !important;
+}
+
+
+
+.imgflecha{
+
+	width: 30px; 
+	height: 50px;  
+	border: 0px solid;
+	transition: 1s;
+}
+
+.imgflecha:hover{
+	height: 100px;
+	box-shadow:  2px 2px 2px 0px rgba(0,0,0, 0.5);
+}
+
+.letraH{
+	height: 150px;
+	width: 150px;
+	background: blue;
+	border-radius: 50%;
+	color: #fff !important;
+}
